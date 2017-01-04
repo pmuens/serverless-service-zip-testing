@@ -2,6 +2,8 @@
 
 Repository with an example [Serverless](http://github.com/serverless/serverless) service to test an benchmark the zipping functionality.
 
+Run `serverless install --url https://github.com/pmuens/serverless-service-zip-testing` to install this service on your machine.
+
 ## Generate test files
 
 Run the `create-files.sh` script to generate 10 randos files (each with a size of 10MB).
