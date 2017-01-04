@@ -1,0 +1,30 @@
+service: service-zip-testing
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+
+functions:
+  1:
+    handler: handler.hello
+  2:
+    handler: handler.hello
+  3:
+    handler: handler.hello
+  4:
+    handler: handler.hello
+  5:
+    handler: handler.hello
+  6:
+    handler: handler.hello
+  7:
+    handler: handler.hello
+  8:
+    handler: handler.hello
+  9:
+    handler: handler.hello
+  10:
+    handler: handler.hello
+
+package:
+  individually: true
